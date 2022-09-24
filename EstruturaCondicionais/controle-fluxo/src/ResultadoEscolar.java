@@ -1,7 +1,7 @@
 public class ResultadoEscolar {
     public static void main(String[] args) {
         
-        int nota = 6;
+    /*     int nota = 6;
 
         if(nota >= 7)
             System.out.println("Aprovado");
@@ -11,6 +11,17 @@ public class ResultadoEscolar {
 
         else
             System.out.println("Reprovado");
+
+     */
+
+     /* ~~~~* Condições Ternarias *~~~~ */
+     /* Pode subistituir 3 condição if simplificando o codigo */
+
+        int nota = 4;
+
+        String resultado = nota >= 7 ? "Aprovado" : nota >= 5 && nota <7 ? "Recuperação" : "Reprovado";
+
+        System.out.println(resultado);
 
     }
 }
